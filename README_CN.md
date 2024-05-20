@@ -16,7 +16,7 @@ make && make install
 ```
 
 # 运行
-将编译生成的`luckfox_rtsp_yolov5_demo`上传到 luckfox-pico 上，进入文件夹运行
+将编译生成的`luckfox_rtsp_yolov5_demo`(文件夹)上传到 luckfox-pico 上，进入文件夹运行
 ```
 ./luckfox_rtsp_yolov5
 ```
