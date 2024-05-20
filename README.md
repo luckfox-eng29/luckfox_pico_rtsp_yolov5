@@ -4,7 +4,7 @@
     Test luckfox-pico pro (128MB RAM) using rknn to infer retinaface and stream it via rtsp.
 
 # Development Environment
-+ Luckfox-pico SDK
++ [Luckfox-pico SDK(Only rootfs built by buildroot is supported)](https://github.com/LuckfoxTECH/luckfox-pico)
 
 # Compilation
 ```
@@ -24,3 +24,6 @@ Use VLC to open the network stream at rtsp://172.32.0.93/live/0 (modify the IP a
 
 **Note**: Before running, please close the default rkipc program by executing `RkLunch-stop.sh`.
 Due to the large size of the yolov5 model, it requires more memory resources to load and cannot run on luckfox-pico mini/plus (rv1103).
+
+#  Related Tutorials
+https://wiki.luckfox.com/zh/Luckfox-Pico/RKMPI-example
