@@ -26,4 +26,4 @@ Use VLC to open the network stream at rtsp://172.32.0.93/live/0 (modify the IP a
 Due to the large size of the yolov5 model, it requires more memory resources to load and cannot run on luckfox-pico mini/plus (rv1103).
 
 #  Related Tutorials
-https://wiki.luckfox.com/zh/Luckfox-Pico/RKMPI-example
+https://wiki.luckfox.com/Luckfox-Pico/RKMPI-example/
