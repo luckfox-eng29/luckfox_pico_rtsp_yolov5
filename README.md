@@ -16,7 +16,7 @@ make && make install
 ```
 
 # Execution
-Upload the compiled `luckfox_rtsp_yolov5_demo` to luckfox-pico, navigate to the directory, and run
+Upload the compiled `luckfox_rtsp_yolov5_demo` (directory) to luckfox-pico, navigate to the directory, and run
 ```
 ./luckfox_rtsp_yolov5
 ```
