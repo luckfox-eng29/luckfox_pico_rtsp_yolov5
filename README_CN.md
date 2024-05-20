@@ -4,7 +4,7 @@
     测试 luckfox-pico pro (128MB RAM) 使用 rknn 推理 retinaface 并进行 rtsp 推流。
 
 # 开发环境
-+ luckfox-pico sdk
++ [luckfox-pico sdk（仅支持使用buildroot构建的根文件系统)](https://github.com/LuckfoxTECH/luckfox-pico)
 
 # 编译
 ```
@@ -25,4 +25,6 @@ make && make install
 **注意**：运行前请关闭系统默认 rkipc 程序，执行 `RkLunch-stop.sh` 关闭。
 由于 yolov5 模型较大需要消耗更多的内存资源加载，在 luckfox-pico mini/plus （rv1103）上无法运行。
 
+# 相关教程
+https://wiki.luckfox.com/zh/Luckfox-Pico/RKMPI-example
 
